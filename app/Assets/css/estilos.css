@@ -1,0 +1,1290 @@
+/********************************
+Autor: Guillermo Ruiz Remolina
+Fecha creación: 11/12/2020
+Última modificación: 16/12/2020
+Versión: 1.00
+
+#estilos.css
+Fichero encargado de dar estilos a cada uno de los elementos del gimnasio
+Algunos elemenos al tener una posicion y diseño parecidos comprarte css, como
+por ejemplo los menus de dia y hora que aparecen en distintos sitios comparten el mismo css
+**********************************/
+/*Login*/
+#login_fondo
+{
+    background-image: url(../img/fondos/fondo_login.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#lb_login
+{
+    position: absolute;
+    color:white;
+    top:10%;
+    right:39%;
+}
+#lb_login_usuario
+{
+    position: absolute;
+    color:white;
+    top:25%;
+    right:45%;
+}
+#tb_login_usuario
+{
+    position: absolute;
+    color:white;
+    border-width: 2px;
+    background-color: black;
+    border-style: solid;
+    width:250px;
+    height:40px;
+    font-size:18px;
+    font-family: Consolas;
+    border-color: white;
+    top:36%;
+    right:40.5%;
+    text-align: center;
+}
+#lb_login_contrasena
+{
+    position: absolute;
+    color:white;
+    top:43%;
+    right:43.4%;
+}
+#pb_login_contrasena
+{
+    position: absolute;
+    color:white;
+    border-width: 2px;
+    background-color: black;
+    border-style: solid;
+    width:250px;
+    height:40px;
+    font-size:18px;
+    font-family: Consolas;
+    border-color: white;
+    top:52%;
+    right:40.5%;
+    text-align: center;
+}
+#bt_iniciar
+{
+    position: absolute;
+    top:63%;
+    right:43.8%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:160px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    cursor: pointer
+}
+#bt_registro
+{
+    position: absolute;
+    top:74%;
+    right:44.5%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:140px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    cursor: pointer
+}
+/*Registro**************************************************************************************************/
+#fondo_registro
+{
+    background-image: url(../img/fondos/fondo_registro.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#lb_registro
+{
+    position: absolute;
+    color:white;
+    top:2%;
+    right:44%;
+}
+#lb_registro_dni
+{
+    position: absolute;
+    color:white;
+    top:20%;
+    right:70%;
+}
+#tb_registro_dni
+{
+    position: absolute;
+    color:white;
+    border-width: 2px;
+    background-color: black;
+    border-style: solid;
+    width:200px;
+    height:30px;
+    font-size:18px;
+    font-family: Consolas;
+    border-color: white;
+    top:22%;
+    right:53.5%;
+    text-align: center;
+}
+#lb_registro_nombre
+{
+    position: absolute;
+    color:white;
+    top:32%;
+    right:70%;
+}
+#tb_registro_nombre
+{
+    position: absolute;
+    color:white;
+    border-width: 2px;
+    background-color: black;
+    border-style: solid;
+    width:200px;
+    height:30px;
+    font-size:18px;
+    font-family: Consolas;
+    border-color: white;
+    top:34%;
+    right:53.5%;
+    text-align: center;
+}
+#lb_registro_apellido1
+{
+    position: absolute;
+    color:white;
+    top:44%;
+    right:70%;
+}
+#tb_registro_apellido1
+{
+    position: absolute;
+    color:white;
+    border-width: 2px;
+    background-color: black;
+    border-style: solid;
+    width:200px;
+    height:30px;
+    font-size:18px;
+    font-family: Consolas;
+    border-color: white;
+    top:46%;
+    right:53.5%;
+    text-align: center;
+}
+#lb_registro_apellido2
+{
+    position: absolute;
+    color:white;
+    top:55%;
+    right:70%;
+}
+#tb_registro_apellido2
+{
+    position: absolute;
+    color:white;
+    border-width: 2px;
+    background-color: black;
+    border-style: solid;
+    width:200px;
+    height:30px;
+    font-size:18px;
+    font-family: Consolas;
+    border-color: white;
+    top:57%;
+    right:53.5%;
+    text-align: center;
+}
+#lb_registro_imagen
+{
+    position: absolute;
+    color:white;
+    top:67%;
+    right:36%;
+}
+#ib_registro_imagen
+{
+    position: absolute;
+    color:white;
+    border-width: 2px;
+    background-color: black;
+    border-style: solid;
+    font-size:18px;
+    font-family: Consolas;
+    border-color: white;
+    top:69.5%;
+    right:2.3%;
+    text-align: center;
+}
+#lb_registro_telefono
+{
+    position: absolute;
+    color:white;
+    top:67%;
+    right:71%;
+}
+#tb_registro_telefono
+{
+    position: absolute;
+    color:white;
+    border-width: 2px;
+    background-color: black;
+    border-style: solid;
+    width:200px;
+    height:30px;
+    font-size:18px;
+    font-family: Consolas;
+    border-color: white;
+    top:69%;
+    right:53.5%;
+    text-align: center;
+}
+#lb_registro_login
+{
+    position: absolute;
+    color:white;
+    top:20%;
+    right:36%;
+}
+#tb_registro_login
+{
+    position: absolute;
+    color:white;
+    border-width: 2px;
+    background-color: black;
+    border-style: solid;
+    width:200px;
+    height:30px;
+    font-size:18px;
+    font-family: Consolas;
+    border-color: white;
+    top:22%;
+    right:20%;
+    text-align: center;
+}
+#lb_registro_contrasena
+{
+    position: absolute;
+    color:white;
+    top:32%;
+    right:36%;
+}
+#tb_registro_contrasena
+{
+    position: absolute;
+    color:white;
+    border-width: 2px;
+    background-color: black;
+    border-style: solid;
+    width:200px;
+    height:30px;
+    font-size:18px;
+    font-family: Consolas;
+    border-color: white;
+    top:34%;
+    right:20%;
+    text-align: center;
+}
+#lb_registro_email
+{
+    position: absolute;
+    color:white;
+    top:44%;
+    right:36%;
+}
+#tb_registro_email
+{
+    position: absolute;
+    color:white;
+    border-width: 2px;
+    background-color: black;
+    border-style: solid;
+    width:200px;
+    height:30px;
+    font-size:13px;
+    font-family: Consolas;
+    border-color: white;
+    top:46%;
+    right:20%;
+    text-align: center;
+}
+#lb_registro_direccion
+{
+    position: absolute;
+    color:white;
+    top:55%;
+    right:36%;
+}
+#tb_registro_direccion
+{
+    position: absolute;
+    color:white;
+    border-width: 2px;
+    background-color: black;
+    border-style: solid;
+    width:200px;
+    height:30px;
+    font-size:13px;
+    font-family: Consolas;
+    border-color: white;
+    top:57%;
+    right:20%;
+    text-align: center;
+}
+#bt_registro_registrarse
+{
+    position: absolute;
+    top:82%;
+    right:35%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:140px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    cursor: pointer
+}
+#bt_registro_cancelar
+{
+    position: absolute;
+    top:82%;
+    right:50%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:200px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    cursor: pointer
+}
+/*Principal*************************************************************************************************/
+#portada_fondo
+{
+    background-image: url(../img/fondos/fondo_cabecera.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#lb_nombreGimnasio
+{
+    position: absolute;
+    color: white;
+    top:1%;
+    right:75%;
+}
+#lb_nombreLogado
+{
+    position: absolute;
+    color: white;
+    top:1%;
+    right:20%;
+}
+#img_usuarioLogado
+{
+    position: absolute;
+    color: white;
+    top:1%;
+    right:5%;
+    height:120px;
+    width:190px;
+    object-fit: contain;
+    background-color: black;
+    border-color: black;
+    border-width: 4px;
+    border-style: solid;
+}
+#lb_rol_A
+{
+    position: absolute;
+    color: yellow;
+    top:1%;
+    right:41%;
+}
+#lb_rol_S
+{
+    position: absolute;
+    color: cyan;
+    top:1%;
+    right:41%;
+}
+#bt_gestion_usuarios
+{
+    position: absolute;
+    top:20%;
+    right:75%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:280px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    cursor: pointer
+}
+#bt_gestion_actividades
+{
+    position: absolute;
+    top:35%;
+    right:75%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:280px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    cursor: pointer
+}
+#bt_gestion_tramos
+{
+    position: absolute;
+    top:50%;
+    right:75%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:280px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    cursor: pointer
+}
+#bt_mostrar_reservas
+{
+    position: absolute;
+    top:65%;
+    right:75%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:280px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    cursor: pointer
+}
+#bt_editar_perfil
+{
+    position: absolute;
+    top:23%;
+    right:5%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:200px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    cursor: pointer
+}
+#bt_cerrar_sesion
+{
+    position: absolute;
+    top:33%;
+    right:5%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:200px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    cursor: pointer
+}
+/*Gestion usuarios******************************************************************************************/
+#tabla_usuarios
+{
+    position: absolute;
+    top:33%;
+    right:4%;
+    border-color: rgb(0, 79, 170);
+    border-width: 2px;
+    border-style: solid;
+    font-size:16px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    text-align: center;
+}
+#bt_usuario_volver
+{
+    position: absolute;
+    top:20%;
+    right:89.5%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:100px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    cursor: pointer
+}
+#lb_lista_de_usuarios
+{
+    position: absolute;
+    color: white;
+    background-color: black;
+    top:22%;
+    right:45%;
+}
+/*Gestion actividades***************************************************************************************/
+#tabla_actividades
+{
+    position: absolute;
+    top:33%;
+    right:4%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    text-align: center;
+}
+#lb_lista_actividades
+{
+    position: absolute;
+    color: white;
+    background-color: black;
+    top:22%;
+    right:25%;
+}
+#bt_actividades_crear
+{
+    position: absolute;
+    top:34%;
+    right:82.3%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:200px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    cursor: pointer
+}
+#bt_actividades_volver
+{
+    position: absolute;
+    top:20%;
+    right:89.5%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:100px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    cursor: pointer
+}
+#lb_actividades_crear
+{
+    position: absolute;
+    color: white;
+    top:45%;
+    right:80%;
+}
+#lb_actividades_crear_nombre
+{
+    position: absolute;
+    color: white;
+    top:53%;
+    right:89.5%;
+}
+#tb_actividades_crear_nombre
+{
+    position: absolute;
+    color:white;
+    border-width: 2px;
+    background-color: black;
+    border-style: solid;
+    width:200px;
+    height:30px;
+    font-size:18px;
+    font-family: Consolas;
+    border-color: white;
+    top:61%;
+    right:81.7%;
+    text-align: center;
+}
+#lb_actividades_crear_descripcion
+{
+    position: absolute;
+    color: white;
+    top:65%;
+    right:84.3%;
+}
+#tb_actividades_crear_descripcion
+{
+    position: absolute;
+    color:white;
+    border-width: 2px;
+    background-color: black;
+    border-style: solid;
+    width:380px;
+    height:30px;
+    font-size:14px;
+    font-family: Consolas;
+    border-color: white;
+    top:73%;
+    right:68.5%;
+    text-align: center;
+}
+#lb_actividades_crear_aforo
+{
+    position: absolute;
+    color: white;
+    top:77%;
+    right:90.5%;
+}
+#tb_actividades_crear_aforo
+{
+    position: absolute;
+    color:white;
+    border-width: 2px;
+    background-color: black;
+    border-style: solid;
+    width:80px;
+    height:30px;
+    font-size:18px;
+    font-family: Consolas;
+    border-color: white;
+    top:84.5%;
+    right:90.5%;
+    text-align: center;
+}
+#bt_actividades_crear_confirmar
+{
+    position: absolute;
+    top:83%;
+    right:68.5%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:150px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    cursor: pointer
+}
+/*Gestion tramos********************************************************************************************/
+#tabla_tramos
+{
+    position: absolute;
+    top:23%;
+    right:5%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    font-size:16px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    text-align: center;
+}
+#bt_tramos_volver
+{
+    position: absolute;
+    top:20%;
+    right:89.5%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:100px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    cursor: pointer
+}
+#bt_tramos_crear_tramo
+{
+    position: absolute;
+    top:20%;
+    right:69%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:150px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: rgb(37, 37, 37);
+    cursor: pointer
+}
+#bt_tramos_eliminar_tramo
+{
+    position: absolute;
+    top:20%;
+    right:57%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:150px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color:  rgb(37, 37, 37);
+    cursor: pointer
+}
+#lb_crear_tramo
+{
+    position: absolute;
+    color: white;
+    background-color: black;
+    top:28%;
+    right:84%;
+}
+#lb_crear_tramo_dia
+{
+    position: absolute;
+    color: white;
+    top:36%;
+    right:92.5%;
+}
+#mn_semana_tramos_crear
+{
+    position: absolute;
+    top:37%;
+    right:81%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:150px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    cursor: pointer
+}
+#lb_crear_tramo_hora
+{
+    position: absolute;
+    color: black;
+    top:36%;
+    right:67%;
+}
+#mn_hora_tramos_crear
+{
+    position: absolute;
+    top:37%;
+    right:60%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:80px;
+    height:50px;
+    font-size:17px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    cursor: pointer
+}
+#lb_crear_tramo_nombre
+{
+    position: absolute;
+    color: white;
+    top:46%;
+    right:86%;
+}
+#mn_actividad_tramos_crear
+{
+    position: absolute;
+    top:47%;
+    right:74%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:150px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    cursor: pointer
+}
+#bt_crear_tramo_confirmar
+{
+    position: absolute;
+    top:58%;
+    right:86%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:150px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    cursor: pointer
+}
+#lb_borrar_tramo
+{
+    position: absolute;
+    color: white;
+    background-color: black;
+    top:28%;
+    right:81%;
+}
+#bt_crear_tramo_confirmar_eliminar
+{
+    position: absolute;
+    top:50%;
+    right:80%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:230px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    cursor: pointer
+}
+/*Mostrar reservas admin************************************************************************************/
+#bt_reservas_mostrar
+{
+    position: absolute;
+    top:50%;
+    right:80%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:230px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    cursor: pointer
+}
+#at_personas_con_reservas
+{
+    position: absolute;
+    top:25%;
+    right:5%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:600px;
+    height:400px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+}
+#lb_mostrar_reservas_vacio
+{
+    position: absolute;
+    color: white;
+    background-color: black;
+    top:60%;
+    right:47.5%;
+}
+#lb_seleccione_reserva
+{
+    position: absolute;
+    color: white;
+    background-color: black;
+    top:27.5%;
+    right:52%;
+}
+/*Vista Socio**************************************************************************************/
+#bt_socio_reservar
+{
+    position: absolute;
+    top:20%;
+    right:84%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:200px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    cursor: pointer
+}
+#bt_socio_editar_perfil
+{
+    position: absolute;
+    top:20%;
+    right:57%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:200px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: rgb(3, 3, 3);
+    cursor: pointer
+}
+#bt_socio_cerrar_sesion
+{
+    position: absolute;
+    top:30%;
+    right:57%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:200px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: rgb(34, 34, 34);
+    cursor: pointer
+}
+#tabla_reservas_usuario
+{
+    position: absolute;
+    top:67%;
+    right:74.3%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    font-size:16px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    text-align: center;
+}
+#lb_reservar_actividad
+{
+    position: absolute;
+    color: white;
+    background-color: black;
+    top:28%;
+    right:76.5%;
+}
+#lb_reservar_hora
+{
+    position: absolute;
+    color: white;
+    top:45%;
+    right:84.3%;
+}
+#mn_hora_reservar
+{
+    position: absolute;
+    top:46%;
+    right:78%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:80px;
+    height:50px;
+    font-size:17px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    cursor: pointer
+}
+#bt_confirmar_reserva
+{
+    position: absolute;
+    top:46%;
+    right:57%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:200px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    cursor: pointer
+}
+#lb_lista_reservas
+{
+    position: absolute;
+    color: white;
+    background-color: black;
+    top:58%;
+    right:81.5%;
+}
+#lb_lista_reservas_vacia
+{
+    position: absolute;
+    color: white;
+    background-color: black;
+    top:58%;
+    right:72%;
+}
+/*Editar perfil*******************************************************************************************/
+#lb_editar_datos
+{
+    position: absolute;
+    color:white;
+    background-color: black;
+    top:14%;
+    right:70%;
+}
+#lb_aviso_imagen
+{
+    position: absolute;
+    color: white;
+    background-color: black;
+    top:20%;
+    right:32.3%;
+}
+#lb_editar_nombre
+{
+    position: absolute;
+    color: black;
+    top:30%;
+    right:76.5%;
+}
+#tb_editar_nombre
+{
+    position: absolute;
+    color:white;
+    border-width: 2px;
+    background-color: black;
+    border-style: solid;
+    width:250px;
+    height:40px;
+    font-size:18px;
+    font-family: Consolas;
+    border-color: white;
+    top:31%;
+    right:56%;
+    text-align: center;
+}
+#lb_editar_apellido1
+{
+    position: absolute;
+    color: black;
+    top:39%;
+    right:76.5%;
+}
+#tb_editar_apellido1
+{
+    position: absolute;
+    color:white;
+    border-width: 2px;
+    background-color: black;
+    border-style: solid;
+    width:250px;
+    height:40px;
+    font-size:18px;
+    font-family: Consolas;
+    border-color: white;
+    top:41%;
+    right:56%;
+    text-align: center;
+}
+#lb_editar_apellido2
+{
+    position: absolute;
+    color: black;
+    top:49.5%;
+    right:76.5%;
+}
+#tb_editar_apellido2
+{
+    position: absolute;
+    color:white;
+    border-width: 2px;
+    background-color: black;
+    border-style: solid;
+    width:250px;
+    height:40px;
+    font-size:18px;
+    font-family: Consolas;
+    border-color: white;
+    top:51%;
+    right:56%;
+    text-align: center;
+}
+#lb_editar_imagen
+{
+    position: absolute;
+    color: black;
+    top:59.5%;
+    right:76.5%;
+}
+#ib_editar_imagen
+{
+    position: absolute;
+    color:white;
+    border-width: 2px;
+    background-color: black;
+    border-style: solid;
+    font-size:18px;
+    font-family: Consolas;
+    border-color: white;
+    top:62%;
+    right:42%;
+    text-align: center;
+}
+#lb_editar_telefono
+{
+    position: absolute;
+    color: black;
+    top:70%;
+    right:76.5%;
+}
+#tb_editar_telefono
+{
+    position: absolute;
+    color:white;
+    border-width: 2px;
+    background-color: black;
+    border-style: solid;
+    width:250px;
+    height:40px;
+    font-size:18px;
+    font-family: Consolas;
+    border-color: white;
+    top:71%;
+    right:56%;
+    text-align: center;
+}
+#lb_editar_direccion
+{
+    position: absolute;
+    color: black;
+    top:81%;
+    right:76.5%;
+}
+#tb_editar_direccion
+{
+    position: absolute;
+    color:white;
+    border-width: 2px;
+    background-color: black;
+    border-style: solid;
+    width:250px;
+    height:40px;
+    font-size:18px;
+    font-family: Consolas;
+    border-color: white;
+    top:82%;
+    right:56%;
+    text-align: center;
+}
+#bt_guardar_cambios
+{
+    position: absolute;
+    top:81.5%;
+    right:35%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:200px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    cursor: pointer
+}
+#bt_eliminar_cuenta
+{
+    position: absolute;
+    top:26%;
+    right:5%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:200px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: darkred;
+    cursor: pointer
+}
+/*Eliminar cuenta*****************************************************************************************/
+#lb_pregunta_eliminar
+{
+    position: absolute;
+    color: white;
+    top:10%;
+    right:45%;
+}
+#bt_pregunta_si
+{
+    position: absolute;
+    top:25%;
+    right:60%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:60px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    cursor: pointer
+}
+#bt_pregunta_no
+{
+    position: absolute;
+    top:25%;
+    right:75%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width:60px;
+    height:50px;
+    font-size:18px;
+    font-family: Consolas;
+    color:white;
+    background-color: black;
+    cursor: pointer
+}
